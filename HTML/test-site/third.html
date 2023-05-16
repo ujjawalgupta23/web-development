@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and forms</title>
+
+    <style>
+        /* universal */
+        * {
+            background-color: #4d4d4d;
+            color: #fffFFF;
+        }
+
+        /* individual selector */
+        td {
+            background-color: #a59b16;
+        }
+
+        #message {
+            background-color: #0852f1;
+        }
+
+        .warning {
+            background-color: red;
+            color: #fffFFF;
+            margin: auto;
+            padding: 3px;
+            border: 3px solid #f5d20b;
+        }
+
+        /* combined selector */
+        label,
+        input {
+            background-color: aqua;
+            color: black;
+        }
+
+        td:hover {
+            background-color: orange;
+        }
+
+        [lco-code] {
+            background-color: #030350;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 class="warning">Testing</h2>
+    <p id="message">Hi there</p>
+    <!-- tables -->
+    <table border>
+        <tr>
+            <td>S.No</td>
+            <td>Name</td>
+            <td rowspan="3">Hello Bhai</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Ujjawal</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Naman</td>
+        </tr>
+        <tr>
+            <td colspan="23 ">Hello Bro</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- forms -->
+    <form action="#">
+        Name: <input type="text" placeholder="Enter your Name" name="" id=""><br>
+        <label for="s1"></label>
+        <select name="vehicel" id="s1">
+            <option value="car">Car</option>
+            <option value="bike">Bike</option>
+            <option lco-code value="plane" selected>Flight</option>
+        </select>
+        <input type="submit">
+        <button type="submit">Submit</button>
+        Password: <input type="password" placeholder="Enter your password">
+        <label for="gender">Gender:</label>
+        <label for="r1">Male</label>
+        <input type="radio" name="gender" id="r1">
+        <label for="r2">Female</label>
+        <input type="radio" name="gender" id="r2">
+
+    </form>
+
+</body>
+
+</html>
