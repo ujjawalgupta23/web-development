@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration</title>
+</head>
+
+<body>
+    <main>
+        <h1>Event Registration</h1>
+        <form action="">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
+                <br />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="mail" id="email" />
+                <br />
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="tel" id="phone" />
+                <br />
+            </div>
+            <div>
+                <label for="occupation">Occupation:</label>
+                <select name="occ" id="occupation">
+                    <option value="Other">Other</option>
+                    <option value="Developer">Developer</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Manager">Manager</option>
+                </select>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Topics of Interest:</legend>
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="" id="html" />
+
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="" id="css" />
+
+                    <label for="ja">JavaScript</label>
+                    <input type="checkbox" name="" id="js" />
+                </fieldset>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <br />
+                <textarea name="area" id="area" cols="30" rows="4"></textarea>
+            </div>
+            <button>Register</button>
+        </form>
+    </main>
+</body>
+
+</html>
