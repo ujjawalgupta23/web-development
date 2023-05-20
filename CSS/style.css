@@ -13,5 +13,19 @@ Sometimes, it's a value from the parent and other time it's a value from the ele
 }
 
 p {
-    line-height: 50%;  /* half the font-size of the element itself */
+    line-height: 50%; /* half the font-size of the element itself */
 }
+
+/* default size of of root html element is 16px
+if root font-size is 20px, 1 rem is always */
+
+/* rem: root size(in px) * given size */
+h1 {
+    font-size: 6rem; /* 6 * 16px */
+}
+
+h2 {
+    font-size: 4rem; /* 4 * 16px */
+}
+/* this can vary upon the user setting the broweser font size */
+
