@@ -1,0 +1,17 @@
+.container {
+    width: 400px;
+    height: 400px;
+    border: 2px solid darkmagenta;
+}
+
+/* Percentages are always relative to some other value
+Sometimes, it's a value from the parent and other time it's a value from the element itself. */
+.sub-container {
+    width: 50%; /* half the width of parent */
+    height: 50%;
+    border: 1px solid firebrick;
+}
+
+p {
+    line-height: 50%;  /* half the font-size of the element itself */
+}
