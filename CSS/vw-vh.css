@@ -1,0 +1,19 @@
+body {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+}
+
+/* With vw vh the size will be of the window of the browser,
+they will resize them according to the browser's size */
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: darksalmon;
+}
+
+.container2 {
+    width: 50vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
