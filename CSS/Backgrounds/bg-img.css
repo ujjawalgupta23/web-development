@@ -1,0 +1,31 @@
+.box {
+    border: 10px solid royalblue;
+    height: 500px;
+    width: 900px;
+    padding: 30px;
+    /* background-image: url("https://images.unsplash.com/photo-1686583153353-e34d04320cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1000&q=60"); */
+    /* background-image: url("images/peacock.png"), url(images/sunset.jpg); */
+
+    background-image: url(images/people.jpg);
+
+    /* If image size is small then only one pic will be dispalyed */
+    /* background-repeat: no-repeat;  */
+
+    /* If image size is small then pic will be dispalyed on x-axis*/
+    /* background-repeat: repeat-x;  */
+
+    /* If image size is small then pic will be dispalyed on y-axis*/
+    /* background-repeat: repeat-y;  */
+
+    background-size: contain;
+    background-size: cover;
+    /* background-size: 50%; */
+
+    background-position: bottom;
+    background-position: bottom left;
+
+    /* Image will be shown according to content, padding.... */
+    background-clip: content-box;
+
+    filter: blur(2px);
+}
